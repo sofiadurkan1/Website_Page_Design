@@ -10,7 +10,7 @@
     width:100%;
     height:100px;
     background: #595a63;
-    /* padding:30px; */
+    /* padding:10px; */
     border-bottom: 4px  solid rgb(169, 42, 180);
 
 }
@@ -23,16 +23,16 @@
     width:100%;
     height:100px;
     color: white;
-    padding: 30px;
+    padding:30px
 
+   
+}
+.left-side{
+    padding:40px
+}
 
-    
-    
-
-
-
-    
-    
+.right-side{
+    padding:30px
 }
  span{
     color: rgb(169, 42, 180);
@@ -42,7 +42,6 @@
     color: rgb(169, 42, 180);
 
 }
-
 
 .right-navbar a{
     /* float:right; */
@@ -56,22 +55,6 @@
    
 }
 
-.first-section{
-    width: 100%;
-    height:500px;
-    text-align: center;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    background-image: url(./images/mainImage.jpeg);
-    background-position: center center;
-    color: white;
-    font-size:1.1rem;
-
-
-
-}
-
 .second-section{
     width:100%;
     height: 100px;
@@ -79,15 +62,6 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    /* padding:40px; */
-}
-
-.left-side{
-    padding:30px;
-}
-
-.right-side{
-    padding:30px;
 }
 
 h2{
@@ -114,23 +88,40 @@ h2{
 }
 
 .third-section{
-    text-align: center;
-    width: 100%;
-    height:250px;
-    display: flex;
-    justify-content: space-around;
-    padding:20px;
-    overflow: auto;
-    font-size:1rem;
+    width:100%;
+    height: 38rem;
+    padding:15px 20px 0px 40px ;
+    display:flex;
+    flex-direction: row;
 
+}
+
+.third-left{
+    display:flex;
+    flex-direction: column;
+    min-width: 70%;
+
+}
+.third-right{
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+
+.third-right-text, .third-about-bottom{
+    background-color: #595a63;
+    color: white;
+    padding: 20px;
 
 }
 p{
-    line-height: 20px;
+    line-height: 25px;
 }
+
 img{
-    width: 120px;
-    padding: 10px;
+    width: 150px;
+    padding: 15px;
+    
     
 }
 
@@ -143,7 +134,7 @@ footer{
     display:flex;
     width:100%;
     height:100px;
-    color:white;
+    color:rgb(206, 202, 202);
     display:block;
     justify-content: space-around;
     width:100%;
