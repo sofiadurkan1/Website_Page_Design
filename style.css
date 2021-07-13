@@ -11,7 +11,7 @@
     height:100px;
     background: #595a63;
     /* padding:30px; */
-    border-bottom: 4px  solid rgb(169, 42, 180);
+    border-bottom: 4px  solid rgb(201, 98, 211);
 
 }
 .navbar{
@@ -35,11 +35,11 @@
     
 }
  span{
-    color: rgb(169, 42, 180);
+    color: rgb(201, 98, 211);
 
 }
 #active{
-    color: rgb(169, 42, 180);
+    color: rgb(201, 98, 211);
 
 }
 
@@ -91,7 +91,7 @@
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     
     
