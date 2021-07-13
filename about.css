@@ -1,148 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    line-height: 10px; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 10px;
 }
 
-.container{
-    width:100%;
-    height:100px;
-    background: #35424A;
-    /* padding:10px; */
-    border-bottom: 4px  solid rgb(169, 42, 180);
-
+.container {
+  width: 100%;
+  height: 100px;
+  background: #35424a;
+  /* padding:10px; */
+  border-bottom: 4px solid rgb(169, 42, 180);
 }
-.navbar{
-    
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    position: relative;
-    width:100%;
-    height:100px;
-    color: white;
-    padding:30px
-
-   
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  color: white;
+  padding: 30px;
 }
-.left-side{
-    padding:40px
+.left-side {
+  padding: 40px;
 }
 
-.right-side{
-    padding:30px
+.right-side {
+  padding: 30px;
 }
- span{
-    color: rgb(169, 42, 180);
-
+span {
+  color: rgb(169, 42, 180);
 }
-#active{
-    color: rgb(169, 42, 180);
-
+#active {
+  color: rgb(169, 42, 180);
 }
 
-.right-navbar a{
-    /* float:right; */
-    /* text-align: center; */
-    padding:14px 16px;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: white;
-    display:inline-flex;
-    margin-left: auto;
-   
+.right-navbar a {
+  /* float:right; */
+  /* text-align: center; */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  display: inline-flex;
+  margin-left: auto;
 }
 
-.second-section{
-    width:100%;
-    height: 100px;
-    background-color: #35424A;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+.second-section {
+  width: 100%;
+  height: 100px;
+  background-color: #35424a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-h2{
-    font-size: 1.5rem;
-    color: white;
-    
-    
+h2 {
+  font-size: 1.5rem;
+  color: white;
 }
-.subscribe{
-    width:300px;
-    height:50px;
-    border-width: 4px;
-    padding: 10px 10px;
-    display:inline-block
-
+.subscribe {
+  width: 300px;
+  height: 50px;
+  border-width: 4px;
+  padding: 10px 10px;
+  display: inline-block;
 }
-.sub-button{
-    color:white;
-    background-color: rgb(236, 130, 10);
-    border:19px solid rgb(236, 130, 10);
-    width: 120px;
-    font-size: 1rem;
-
+.sub-button {
+  color: white;
+  background-color: rgb(236, 130, 10);
+  border: 19px solid rgb(236, 130, 10);
+  width: 120px;
+  font-size: 1rem;
 }
 
-.third-section{
-    width:100%;
-    height: 38rem;
-    padding:15px 20px 0px 40px ;
-    display:flex;
-    flex-direction: row;
-
+.third-section {
+  width: 100%;
+  height: 38rem;
+  padding: 15px 20px 0px 40px;
+  display: flex;
+  flex-direction: row;
 }
 
-.third-left{
-    display:flex;
-    flex-direction: column;
-    min-width: 70%;
-
+.third-left {
+  display: flex;
+  flex-direction: column;
+  min-width: 70%;
 }
-.third-right{
-    margin-left: 50px;
-    padding-bottom: 20px;
-}
-
-
-.third-right-text, .third-about-bottom{
-    background-color: #35424A;
-    color: white;
-    padding: 20px;
-
-}
-p{
-    line-height: 25px;
+.third-right {
+  margin-left: 50px;
+  padding-bottom: 20px;
 }
 
-img{
-    width: 150px;
-    padding: 15px;
-    
-    
+.third-right-text,
+.third-about-bottom {
+  background-color: #35424a;
+  color: white;
+  padding: 20px;
+}
+p {
+  line-height: 25px;
 }
 
-footer{
-    /* border: 1px solid black; */
-    background-color:#35424A;
-    text-align: center;
-    padding:30px;
-    margin-top: 10px;
-    display:flex;
-    width:100%;
-    height:100px;
-    color:rgb(206, 202, 202);
-    display:block;
-    justify-content: space-around;
-    width:100%;
-    height:150px;
-
-    
-
+img {
+  width: 150px;
+  padding: 15px;
 }
-.footer-image{
-    width:180px;
+
+footer {
+  /* border: 1px solid black; */
+  background-color: #35424a;
+  text-align: center;
+  padding: 30px;
+  margin-top: 10px;
+  display: flex;
+  color: rgb(206, 202, 202);
+  display: block;
+  justify-content: space-around;
+  width: 100%;
+  height: 140px;
+}
+.footer-image {
+  width: 180px;
 }
