@@ -102,8 +102,11 @@ h2 {
 }
 p {
   line-height: 25px;
+  
 }
-
+.third-about p{
+  padding-top: 20px;
+}
 img {
   width: 150px;
   padding: 15px;
@@ -114,7 +117,7 @@ footer {
   background-color: #35424a;
   text-align: center;
   padding: 30px;
-  margin-top: 10px;
+  margin-top: 80px;
   display: flex;
   color: rgb(206, 202, 202);
   display: block;
@@ -124,4 +127,5 @@ footer {
 }
 .footer-image {
   width: 180px;
+  padding: 10px;
 }
