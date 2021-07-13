@@ -9,7 +9,7 @@
 .container{
     width:100%;
     height:100px;
-    background: #595a63;
+    background: #35424A;
     /* padding:10px; */
     border-bottom: 4px  solid rgb(169, 42, 180);
 
@@ -58,7 +58,7 @@
 .second-section{
     width:100%;
     height: 100px;
-    background-color: #595a63;
+    background-color: #35424A;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -109,7 +109,7 @@ h2{
 
 
 .third-right-text, .third-about-bottom{
-    background-color: #595a63;
+    background-color: #35424A;
     color: white;
     padding: 20px;
 
@@ -126,8 +126,8 @@ img{
 }
 
 footer{
-    border: 1px solid black;
-    background-color:#595a63;
+    /* border: 1px solid black; */
+    background-color:#35424A;
     text-align: center;
     padding:30px;
     margin-top: 10px;
